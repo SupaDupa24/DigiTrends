@@ -60,7 +60,7 @@ function switchTheme (event) {
 toggleSwitch.addEventListener('change', switchTheme);
 
 
-const surrentTheme = localStorage.getItem('theme');
+const currentTheme = localStorage.getItem('theme');
 if (currentTheme) {
     document.documentElement.setAttribute('data-theme', currentTheme);
 
